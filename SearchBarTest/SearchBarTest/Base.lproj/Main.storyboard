@@ -11,7 +11,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SearchBarTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -45,6 +44,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="gay-9V-1Ov"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-86.956521739130437" y="12.723214285714285"/>
         </scene>
@@ -77,6 +77,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Search" id="dNg-hV-zsd"/>
+                    <connections>
+                        <outlet property="Searchbar" destination="Dq2-CC-2xr" id="WV2-I5-9Kr"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3CQ-uw-Ef4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

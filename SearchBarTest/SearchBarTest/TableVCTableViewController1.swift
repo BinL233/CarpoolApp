@@ -11,6 +11,7 @@ class TableVCTableViewController1: UITableViewController, UISearchBarDelegate {
     let data = ["PS5", "PS4", "Nintendo Switch", "Iphone13", "Iphone12", "Iphone4s", "Ipad2", "Logitech G502", "G903", "HUAWEI"]
     var filteredData: [String]!
 
+
     @IBOutlet weak var Searchbar: UISearchBar!
     
     override func viewDidLoad() {
